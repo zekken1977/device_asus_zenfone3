@@ -240,6 +240,7 @@ VENDOR_SECURITY_PATCH := 2018-07-01
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
+PRODUCT_FULL_TREBLE_OVERRIDE := false
 
 # Sensors
 USE_SENSOR_MULTI_HAL := true

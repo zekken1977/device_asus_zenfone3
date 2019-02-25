@@ -1,3 +1,4 @@
+
 allow mm-qcamerad sysfs_graphics:file { read open };
 allow mm-qcamerad dit_socket:dir { create_dir_perms add_name getattr write };
 allow mm-qcamerad dit_socket:chr_file create;
